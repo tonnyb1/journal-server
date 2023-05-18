@@ -1,1 +1,38 @@
-{}
+{
+  "users": [
+    {
+      "id": "59a1d70f-364f-4007-a90b-c1af399ec01e",
+      "email": "b@bi.com",
+      "password": "$2b$10$TqAdV1fkdOcS4ut4GG0dpeKYDuuk7iBeG7FIUDmxh1g2lwQIZH8Qu",
+      "journals": [
+        {
+          "id": "75f7e1d7-cddf-4d0d-95eb-10ff2aeee006",
+          "createdAt": 1684333818441,
+          "content": " I have good interpersonal and communication skills and have been able to work effectively with team members contributing to ideas, willing to always learn and provide mentorship where needed. I have also been able to manage customer expectations and relationships effectively. \n",
+          "userId": "59a1d70f-364f-4007-a90b-c1af399ec01e"
+        }
+      ]
+    },
+    {
+      "id": "dc9c0ae9-93f3-4e98-bacc-25fbfcb24cfe",
+      "email": "betttonny966@gmail.com",
+      "password": "$2b$10$VOc4MK9cI4v07PWCAbneKeJeivBLEmqfW0gnk9l3JAG1oWzbtSbEa",
+      "journals": [
+ 
+      ]
+    },
+    {
+      "id": "44a03ffd-a2bf-4078-8571-42d9107d6bfd",
+      "email": "tonnybett6@gmail.com",
+      "password": "$2b$10$nTlyVygIea5OBeXuV.C0T.sYxCLMqsYVntROFWpBGzUi0mxMc2Bia",
+      "journals": [
+        {
+          "id": "4372f998-3065-4f4a-b25d-deb4e18b1489",
+          "createdAt": 1684343198006,
+          "content": "If an app or site doesn’t meet our security standards, Google might block anyone who’s trying to sign in to your account from it. Less secure apps can make it easier for hackers to get in to your account, so blocking sign-ins from these apps helps keep your account safe.",
+          "userId": "44a03ffd-a2bf-4078-8571-42d9107d6bfd"
+        }
+      ]
+    }
+  ]
+}

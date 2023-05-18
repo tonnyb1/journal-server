@@ -1,0 +1,281 @@
+#root {
+  margin: 0;
+  text-align: center;
+}
+
+header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding-block: 10px;
+
+  box-shadow: 0px 2.9825618267059326px 7.456404209136963px 0px #0000001A;
+}
+
+header .site-logo {
+  color: #273B5F;
+  margin-right: auto;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 25px;
+}
+
+header a {
+  text-decoration: none;
+  color: #4D4D4D;
+  font-weight: 600;
+  padding: 5px 15px;
+}
+
+header a:hover {
+  color: #161616;
+  text-decoration: underline;
+}
+
+header button {
+  cursor: pointer;
+}
+
+header .login-icon {
+  height: 18px;
+  width: 18px;
+}
+
+header .login-link {
+  display: inline-flex;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+}
+
+main {
+  margin-bottom: 84px;
+  flex: 1;
+  margin: 80px 0 74px 0;
+}
+
+footer {
+  background-color: #161616;
+  color: #AAAAAA;
+  height: 74px;
+  display: flex;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+  font-weight: 500;
+  margin-top: auto;
+}
+
+.link-button {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  padding: .75rem 1.375rem;
+  color: initial;
+  font-weight: 700;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform .1s ease-in-out;
+}
+
+.back-button {
+  display: block;
+  color: black;
+  text-decoration: none;
+  margin-left: 26px;
+}
+
+.site-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.login-section {
+  display: flex;
+}
+.login-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 30px 0px 30px;
+  background-color: #FFF7ED;
+  border-radius: 10px;
+  max-width: 768px;
+}
+.login-title {
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #273B5F;
+}
+
+.login-field {
+  width: 90%;
+  height: 42px;
+  border-radius: 5px;
+  border: 1px solid #D1D5DB;
+  margin: 10px;
+}
+
+.login-btn {
+  background-color:#ffab34;
+  color: white;
+  font-size: 1.125rem;
+  border-radius: 5px;
+  margin-top: 20px;
+  width: 90%;
+  margin-bottom: 27px;
+  border: none;
+  height: 55px;
+}
+
+.login-text {
+  color: #273B5F;
+  font-weight: 400;
+  padding-bottom: 10px;
+}
+.login-text a {
+  text-decoration: none;
+  color: #ffab34;
+}
+
+.prompt-container {
+  place-content: center;
+  align-items: center;
+  display: flex;
+  flex: 0 0 auto;
+  flex-flow: column nowrap;
+  gap: 16px;
+  height: min-content;
+  padding: 0px;
+  margin-top: 5rem;
+}
+
+.prompt-container h2 {
+  color: #273B5F;
+}
+
+.prompt-box {
+  border-bottom-width: 1px;
+  border: solid 1px coral;
+  place-content: flex-start;
+  align-items: flex-start;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  display: flex;
+  flex: 0 0 auto;
+  flex-flow: column nowrap;
+  gap: 10px;
+  height: 150px;
+  overflow: hidden;
+  padding: 20px;
+  position: relative;
+  width: 610px;
+  max-width: 1200px;
+  will-change: transform;
+  overflow: auto;
+  outline: none;
+  resize: none;
+  font-size: 16px;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: 0px;
+  line-height: 1.6em;
+  text-align: start;
+  color: #273B5F;
+  text-decoration: none;
+  text-transform: none;
+}
+.prompt-buttons {
+  margin: 20px;
+}
+
+textarea {
+  font-family: 'Manrope', sans-serif;
+}
+
+.tile-journal-container {
+  width: 200px;
+  height: 300px;
+  background-color: #f9f9f9;
+  padding: 5px;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #273B5F;
+  overflow: auto;
+  border-radius: 5px;
+}
+
+.tile-journal-container h2 {
+  font-size: 24px;
+  color: #333;
+  margin: 0;
+}
+
+.tile-journal-text {
+  padding: 5px;
+  margin-bottom: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 90%;
+  max-width: 600px;
+  overflow-y: scroll;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #666;
+}
+
+.tile-journal-text::-webkit-scrollbar {
+  width: 12px;
+}
+
+.tile-journal-text::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.tile-journal-text::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 6px;
+  border: 3px solid #f1f1f1;
+}
+
+.journal {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 20px;
+  overflow-x: auto;
+}
+
+.prompt-button {
+  margin:  20px;
+}
+
+.send-btn {
+  background-color: #ffab34;
+  color: #ffffff;
+  height: 40px;
+  width: 100px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 15px;
+  margin-right: 10px;
+}
