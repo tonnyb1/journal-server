@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "lowdb": "^1.0.0",,
+    "lowdb": "^1.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-emotion": "^10.0.0",
